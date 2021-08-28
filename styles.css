@@ -1,0 +1,157 @@
+#title {
+    background-color: #ff4c68;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #8f8f8f;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.title-image-container {
+    position: relative;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+.row {
+    padding-top: 80px;
+}
+#btn {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+#features {
+    padding: 7% 14%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.features-header {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    padding-top: 15px;
+}
+.icon {
+    color: #ef8172;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+.testimonials-image {
+    width: 15%;
+    margin: 20px;
+    border-radius: 100%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#testi {
+    width: 15%;
+    margin: 20px;
+    border-radius: 100%;
+}
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+#price {
+    padding-top: 3%;
+}
+.price-title {
+    font-family:sans-serif;
+}
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+#footer {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.penutup {
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+@media (max-width: 1028px) {
+#title {
+    text-align: center;
+}
+.title-image {
+    position: static;
+    transform: rotate(0);
+}
+}
+
+@media (max-width: 680px) {
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.testimonials-image {
+    width: 15%;
+    margin: 20px;
+    border-radius: 100%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#testi {
+    width: 15%;
+    margin: 20px;
+    border-radius: 100%;
+}
+}
